@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "newArchEnabled": true,
+    "name": "CBT 2 - SMPN 13 Malang",
+    "slug": "akademika-cbt2-smpn13malang",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "id.akademika.cbt2.smpn13malang",
+      "versionCode": 18
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "id.akademika.cbt.smpn13malang",
+      "buildNumber": "3.0.0",
+      "infoPlist": {}
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71d556fb-53eb-440e-a3d4-5a82f651d0a5"
+      }
+    }
+  }
+}
